@@ -14,13 +14,12 @@ import Home2 from "./pages/Home2";
 import Home3 from "./pages/Home3";
 import Login from "./components/Login";
 import ProductIn from "./pages/ProductIn";
-
+import NavbarI from "./components/Nav";
 
 const App = () => {
   return (
-    <section className="">
+    <section className="flex flex-col">
       <Navbar />
-
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
